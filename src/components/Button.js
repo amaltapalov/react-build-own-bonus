@@ -1,6 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import styled from "styled-components";
 
-const Button = ({ title, onClick }) => <Link to={title}>{title}</Link>;
-
-export default Button;
+const Button = styled.button`
+	display: inline-block;
+	border-radius: 1px;
+	padding: 0.5rem 0;
+	margin: 0.5rem 1rem;
+	width: 11rem;
+	background: transparent;
+	color: black;
+	border: 2px solid white;
+`;
