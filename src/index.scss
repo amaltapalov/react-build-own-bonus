@@ -13,11 +13,13 @@ code {
     monospace;
 }
 
+img {
+  max-width: 100%;
+}
+
 .page {
   position: relative;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
   text-align: center;
   overflow: hidden;
   background: url('./images/mainBackground.jpg') center center / cover no-repeat;

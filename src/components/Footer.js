@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import img from "../images/terms.png";
+import TermsImage from "../images/terms.png";
 
 const Footer = styled.div`
 	position: absolute;
@@ -11,7 +11,7 @@ const Footer = styled.div`
 	width: 100vw;
 	height: 75px;
 	overflow: hidden;
-	background-image: url(${img});
+	background-image: url(${TermsImage});
 	z-index: 5;
 `;
 
