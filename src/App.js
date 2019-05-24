@@ -18,6 +18,14 @@ import button8 from "./images/buttons/button-8.png";
 import button9 from "./images/buttons/button-9.png";
 import button10 from "./images/buttons/button-10.png";
 
+import bonus1 from "./images/bonuses/bonus-1.png";
+import bonus2 from "./images/bonuses/bonus-2.png";
+import bonus3 from "./images/bonuses/bonus-3.png";
+import bonus4 from "./images/bonuses/bonus-4.png";
+import bonus5 from "./images/bonuses/bonus-5.png";
+import bonus6 from "./images/bonuses/bonus-6.png";
+import bonus7 from "./images/bonuses/bonus-7.png";
+
 // Style
 import "./index.scss";
 
