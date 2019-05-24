@@ -32,10 +32,14 @@ const Random = styled.div`
 	cursor: pointer;
 `;
 
-export default function() {
+export default function({ showModal }) {
 	return (
 		<Start>
-			<img src={startImage} alt="Start Build Your Bonus" />
+			<img
+				src={startImage}
+				alt="Start Build Your Bonus"
+				onClick={showModal}
+			/>
 			<Random>
 				<img src={randomImage} alt="Generate a Random Bonus" />
 			</Random>
