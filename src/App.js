@@ -7,10 +7,21 @@ import Footer from "./components/Footer";
 import Start from "./components/Start";
 import campaignLogo from "./images/campaign-logo.png";
 
+import button1 from "./images/buttons/button-1.png";
+import button2 from "./images/buttons/button-2.png";
+import button3 from "./images/buttons/button-3.png";
+import button4 from "./images/buttons/button-4.png";
+import button5 from "./images/buttons/button-5.png";
+import button6 from "./images/buttons/button-6.png";
+import button7 from "./images/buttons/button-7.png";
+import button8 from "./images/buttons/button-8.png";
+import button9 from "./images/buttons/button-9.png";
+import button10 from "./images/buttons/button-10.png";
+
 // Style
 import "./index.scss";
 
-const questions = ["Question 1", "Question 2"];
+const questions = [button1, button2];
 
 const Logo = styled.img`
 	display: block;
@@ -44,14 +55,12 @@ class App extends React.Component {
 				<Row className="d-flex text-center">
 					<TopBar />
 					<Logo src={campaignLogo} alt="Build your own bonus" />
-
 					<Start showModal={this.showModal} />
-
 					<Footer />
 				</Row>
 				{/* Modal start */}
 				<Modal show={this.state.show} onHide={this.hideModal}>
-					<h1>{this.state.currentQuestion}</h1>
+					<img src={this.state.currentQuestion} alt="" />
 					<Button onClick={() => this.changeQuestion(1)}>
 						Change question
 					</Button>
