@@ -22,4 +22,6 @@ import plate from "../images/plate.png";
 
 const casinoUrl = "https://www.planet7casino.com/";
 
+const assets = [];
+
 export default assets;

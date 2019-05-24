@@ -12,3 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: url('./images/mainBackground.jpg') center center / cover no-repeat;
+
+  &__content {
+    position: relative;
+  }
+
+}

@@ -1,10 +1,20 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import styled from "styled-components";
 
-const Footer = ({ match }) => (
-	<div>
-		<h1>{match.params.id}</h1>
-	</div>
-);
+import img from "../images/terms.png";
 
-export default withRouter(Footer);
+const Footer = styled.div`
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+	height: 75px;
+	overflow: hidden;
+	background-image: url(${img});
+	z-index: 5;
+`;
+
+export default function() {
+	return <Footer>Terms</Footer>;
+}

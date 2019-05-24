@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import TopBar from "./components/TopBar";
-import Footer from "./components/Footer";
+import TopBar from "./TopBar";
 
 // Style
 import "./index.scss";
 
 //Images
-import campaignlogo from "./images/campaign-logo.png";
+import campaignlogo from "../images/campaign-logo.png";
 
 export default function Layout({ children }) {
 	return (
@@ -23,7 +22,6 @@ export default function Layout({ children }) {
 						padding: "15px 0"
 					}}
 				/>
-				<Footer />
 			</Row>
 		</Container>
 	);
