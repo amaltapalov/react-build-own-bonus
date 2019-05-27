@@ -4,21 +4,24 @@ import styled from "styled-components";
 // Images
 import startImage from "../images/start.png";
 import randomImage from "../images/random.png";
+import mainBackground from "../images/mainBackground.jpg";
 
-const Start = styled.div`
+const ContentContainer = styled.div`
+	min-height: 80vh;
 	position: relative;
 	top: 40px;
 	display: block;
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
+	background: url(${mainBackground}) center center / cover no-repeat;
 	z-index: 2;
 	cursor: pointer;
 `;
 
-const Random = styled.div`
+const RandomContainer = styled.div`
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -32,17 +35,19 @@ const Random = styled.div`
 	cursor: pointer;
 `;
 
-export default function({ showModal }) {
+function Start({ showModal }) {
 	return (
-		<Start>
+		<ContentContainer>
 			<img
 				src={startImage}
 				alt="Start Build Your Bonus"
 				onClick={showModal}
 			/>
-			<Random>
+			<RandomContainer onClick={() => console.log("Hello!")}>
 				<img src={randomImage} alt="Generate a Random Bonus" />
-			</Random>
-		</Start>
+			</RandomContainer>
+		</ContentContainer>
 	);
 }
+
+export default Start;

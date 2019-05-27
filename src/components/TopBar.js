@@ -2,20 +2,23 @@ import React from "react";
 import styled from "styled-components";
 
 import casinoLogo from "../images/logo.png";
+const url = "https://www.planet7casino.com/";
 
-const TopBar = styled.div`
+const Bar = styled.div`
 	display: block;
-	width: 100vw;
+	text-align: center;
 	padding: 10px 0;
 	background: #ce181e;
 `;
 
-export default function() {
+function TopBar() {
 	return (
-		<TopBar>
-			<a href="https://www.planet7casino.com/">
+		<Bar>
+			<a href={url}>
 				<img src={casinoLogo} alt="Planet 7" />
 			</a>
-		</TopBar>
+		</Bar>
 	);
 }
+
+export default TopBar;
