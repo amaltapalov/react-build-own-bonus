@@ -9,7 +9,9 @@ import Footer from "./components/Footer";
 // Images
 import headingImage from "./images/campaign-logo.png";
 
-import options from "./data/options";
+import options, { getRandomBonus } from "./data/options";
+
+const imagesToPreload = [require("./images/bonuses/bonus-1.png")];
 
 class App extends React.Component {
 	state = {
@@ -30,10 +32,34 @@ class App extends React.Component {
 		});
 	};
 
+	generateRandomBonus = () => {
+		this.setState({
+			show: true,
+			currentOption: getRandomBonus()
+		});
+	};
+
+	componentDidMount() {
+		window.onload = function() {
+			imagesToPreload.forEach(image => {
+				const img = new Image();
+				img.src = image;
+			});
+		};
+	}
+
 	render() {
 		return (
 			<Container className="page homepage__content">
-				<Row className="d-block" style={{ overflow: "hidden" }}>
+				<Row
+					style={{
+						overflow: "hidden",
+						minHeight: "100vh",
+						height: "100%",
+						display: "flex",
+						flexDirection: "column"
+					}}
+				>
 					<TopBar />
 					<div
 						style={{
@@ -43,8 +69,17 @@ class App extends React.Component {
 					>
 						<img src={headingImage} alt="Build Your own Bonus" />
 					</div>
-					<Content showModal={this.toggleModal} />
-					<Footer optionData={this.state.currentOption} />
+					<div style={{ flexGrow: "1" }}>
+						<Content
+							showModal={this.toggleModal}
+							generateRandomBonus={this.generateRandomBonus}
+						/>
+					</div>
+
+					<Footer
+						optionData={this.state.currentOption}
+						showTerms={this.state.currentOption.type === "bonus"}
+					/>
 				</Row>
 
 				<ModalBlock

@@ -4,6 +4,33 @@ import { Modal } from "react-bootstrap";
 
 import plateImage from "../images/plate.png";
 import plateImageBonus from "../images/plateBonus.png";
+import closeImage from "../images/closeButton.png";
+
+const CloseButton = styled.button`
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(${closeImage}) center center / cover no-repeat;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	&:active,
+	&:focus {
+		outline: none;
+	}
+
+	@media (max-width: 751px) {
+		top: -5px;
+		right: -5px;
+		width: 11vw;
+		max-width: 40px;
+		height: 11vw;
+		max-height: 40px;
+	}
+`;
 
 const Plate = styled.div`
 	display: flex;
@@ -73,6 +100,7 @@ export default function ModalBlock({ optionData, show, onHide, selectAnswer }) {
 					</div>
 				)}
 			</Plate>
+			<CloseButton onClick={onHide} />
 		</Modal>
 	);
 }

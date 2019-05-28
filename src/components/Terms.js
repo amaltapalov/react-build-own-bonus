@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import TermsData from "../data/terms";
 
 // import termsBg from "../images/mainBackground.jpg";
 import termsImage from "../images/terms.png";
@@ -26,14 +25,14 @@ const TermsContent = styled.div`
 	padding: 2rem 0 0.5rem;
 `;
 
-const TermsButton = styled.button`
+const TermsBg = styled.div`
+	display: flex;
 	position: absolute;
 	top: 0;
 	right: 0;
 	transform: translateY(-100%);
 	width: 100%;
 	height: 65px;
-	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	border: none;
@@ -49,6 +48,11 @@ const TermsButton = styled.button`
 	}
 `;
 
+const TermsButton = styled.img`
+	display: ${props => (props.showTerms ? "block" : "none")};
+	cursor: pointer;
+`;
+
 class Terms extends React.Component {
 	state = {
 		isVisible: false
@@ -61,13 +65,27 @@ class Terms extends React.Component {
 	};
 
 	render() {
+		const terms = this.props.optionData.terms;
 		return (
 			<TermsContainer isVisible={this.state.isVisible}>
 				<TermsContent>
-					<TermsButton onClick={this.toggleTerms}>
-						<img src={termsImage} alt="Terms" />
-					</TermsButton>
-					<TermsData />
+					<TermsBg>
+						<TermsButton
+							onClick={this.toggleTerms}
+							showTerms={this.props.showTerms}
+							src={termsImage}
+							alt="Terms"
+						/>
+					</TermsBg>
+					<p
+						style={{
+							maxWidth: "1200px",
+							padding: "0 1rem 0",
+							margin: "0 auto"
+						}}
+					>
+						{terms}
+					</p>
 				</TermsContent>
 			</TermsContainer>
 		);

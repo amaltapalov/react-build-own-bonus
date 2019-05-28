@@ -8,11 +8,12 @@ const FooterContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	z-index: 10000;
 `;
 
 const Footer = props => (
 	<FooterContainer>
-		<Terms optionData={props.optionData} />
+		<Terms optionData={props.optionData} showTerms={props.showTerms} />
 	</FooterContainer>
 );
 

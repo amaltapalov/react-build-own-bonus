@@ -7,7 +7,8 @@ import randomImage from "../images/random.png";
 import mainBackground from "../images/mainBackground.jpg";
 
 const ContentContainer = styled.div`
-	min-height: 80vh;
+	/* min-height: 100vh; */
+
 	position: relative;
 	top: 40px;
 	display: block;
@@ -35,7 +36,7 @@ const RandomContainer = styled.div`
 	cursor: pointer;
 `;
 
-function Content({ showModal }) {
+function Content({ showModal, generateRandomBonus }) {
 	return (
 		<ContentContainer>
 			<img
@@ -43,7 +44,7 @@ function Content({ showModal }) {
 				alt="Start Build Your Bonus"
 				onClick={showModal}
 			/>
-			<RandomContainer onClick={() => console.log("Hello!")}>
+			<RandomContainer onClick={generateRandomBonus}>
 				<img src={randomImage} alt="Generate a Random Bonus" />
 			</RandomContainer>
 		</ContentContainer>
