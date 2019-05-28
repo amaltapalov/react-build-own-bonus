@@ -91,9 +91,21 @@ img {
   }
 }
 
+.modal {
+  background: rgba(#9a2f22, 0.8);
+  padding-right: 0 !important;
+}
+
 .modal-dialog {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) !important;
+  max-width: none;
+  margin: 0 !important;
+  padding: 1rem;
+}
+
+.modal-backdrop {
+  background: transparent;
 }

@@ -12,7 +12,7 @@ const ContentContainer = styled.div`
 	top: 40px;
 	display: block;
 	width: 100%;
-	max-width: 800px;
+	max-width: 838px;
 	margin: 0 auto;
 	background: url(${mainBackground}) center center / cover no-repeat;
 	z-index: 2;
@@ -35,7 +35,7 @@ const RandomContainer = styled.div`
 	cursor: pointer;
 `;
 
-function Start({ showModal }) {
+function Content({ showModal }) {
 	return (
 		<ContentContainer>
 			<img
@@ -50,4 +50,4 @@ function Start({ showModal }) {
 	);
 }
 
-export default Start;
+export default Content;

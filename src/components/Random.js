@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Random = styled.div`
+const RandomContainer = styled.div`
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -11,7 +11,7 @@ const Random = styled.div`
 `;
 
 function Random() {
-	return <Random />;
+	return <RandomContainer />;
 }
 
 export default Random;

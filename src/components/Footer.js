@@ -10,9 +10,9 @@ const FooterContainer = styled.div`
 	align-items: center;
 `;
 
-const Footer = () => (
+const Footer = props => (
 	<FooterContainer>
-		<Terms />
+		<Terms optionData={props.optionData} />
 	</FooterContainer>
 );
 

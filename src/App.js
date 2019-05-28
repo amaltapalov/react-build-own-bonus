@@ -1,42 +1,33 @@
 import React from "react";
-import { Container, Row, Modal, Button } from "react-bootstrap";
-import styled from "styled-components";
+import { Container, Row } from "react-bootstrap";
 
 import TopBar from "./components/TopBar";
 import Content from "./components/Content";
+import ModalBlock from "./components/ModalBlock";
 import Footer from "./components/Footer";
 
 // Images
 import headingImage from "./images/campaign-logo.png";
-import button1 from "./images/buttons/button-1.png";
-import button2 from "./images/buttons/button-2.png";
 
-// Style
-import "./index.scss";
-
-const questions = [button1, button2];
-
-const Heading = styled.div`
-	max-width: 866px;
-	margin: 0 auto;
-`;
+import options from "./data/options";
 
 class App extends React.Component {
 	state = {
 		show: false,
-		currentQuestion: questions[0]
+		currentOption: options[0]
 	};
 
-	showModal = () => {
-		this.setState({ show: true });
+	toggleModal = () => {
+		this.setState({
+			show: !this.state.show,
+			currentOption: options[0]
+		});
 	};
 
-	hideModal = () => {
-		this.setState({ show: false });
-	};
-
-	changeQuestion = i => {
-		this.setState({ currentQuestion: questions[i] });
+	selectAnswer = id => {
+		this.setState({
+			currentOption: options[id]
+		});
 	};
 
 	render() {
@@ -44,24 +35,24 @@ class App extends React.Component {
 			<Container className="page homepage__content">
 				<Row className="d-block" style={{ overflow: "hidden" }}>
 					<TopBar />
-					<Heading>
+					<div
+						style={{
+							maxWidth: "866px",
+							margin: "0 auto"
+						}}
+					>
 						<img src={headingImage} alt="Build Your own Bonus" />
-					</Heading>
-					<Content showModal={this.showModal} />
-					<Footer />
+					</div>
+					<Content showModal={this.toggleModal} />
+					<Footer optionData={this.state.currentOption} />
 				</Row>
 
-				{/* Modal start */}
-				<Modal show={this.state.show} onHide={this.hideModal}>
-					<img src={this.state.currentQuestion} alt="" />
-					<Button onClick={() => this.changeQuestion(1)}>
-						Change question
-					</Button>
-					<Button variant="secondary" onClick={this.hideModal}>
-						Close
-					</Button>
-				</Modal>
-				{/* Modal end */}
+				<ModalBlock
+					optionData={this.state.currentOption}
+					selectAnswer={this.selectAnswer}
+					show={this.state.show}
+					onHide={this.toggleModal}
+				/>
 			</Container>
 		);
 	}
