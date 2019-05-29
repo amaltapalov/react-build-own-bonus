@@ -8,10 +8,11 @@ import Footer from "./components/Footer";
 
 // Images
 import headingImage from "./images/campaign-logo.png";
+// Preloading Images
+import ImagesToPreload from "./data/imagesToPreload";
 
+// import array of options
 import options, { getRandomBonus } from "./data/options";
-
-const imagesToPreload = [require("./images/bonuses/bonus-1.png")];
 
 class App extends React.Component {
 	state = {
@@ -39,9 +40,10 @@ class App extends React.Component {
 		});
 	};
 
+	// Preloading Images
 	componentDidMount() {
 		window.onload = function() {
-			imagesToPreload.forEach(image => {
+			ImagesToPreload.forEach(image => {
 				const img = new Image();
 				img.src = image;
 			});
