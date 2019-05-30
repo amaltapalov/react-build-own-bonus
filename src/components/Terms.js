@@ -5,7 +5,7 @@ import termsImage from "../images/terms.png";
 import footerBg from "../images/termsBg.png";
 
 const TermsContainer = styled.div`
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
