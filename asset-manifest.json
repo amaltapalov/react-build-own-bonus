@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-build-own-bonus/static/css/main.d135f5b9.chunk.css",
+    "main.js": "/react-build-own-bonus/static/js/main.8bf406c8.chunk.js",
+    "main.js.map": "/react-build-own-bonus/static/js/main.8bf406c8.chunk.js.map",
+    "runtime~main.js": "/react-build-own-bonus/static/js/runtime~main.a777f7af.js",
+    "runtime~main.js.map": "/react-build-own-bonus/static/js/runtime~main.a777f7af.js.map",
+    "static/js/2.5de83756.chunk.js": "/react-build-own-bonus/static/js/2.5de83756.chunk.js",
+    "static/js/2.5de83756.chunk.js.map": "/react-build-own-bonus/static/js/2.5de83756.chunk.js.map",
+    "index.html": "/react-build-own-bonus/index.html",
+    "precache-manifest.8ff77cb20e969fa5e5c0c2d82b2e30cc.js": "/react-build-own-bonus/precache-manifest.8ff77cb20e969fa5e5c0c2d82b2e30cc.js",
+    "service-worker.js": "/react-build-own-bonus/service-worker.js",
+    "static/css/main.d135f5b9.chunk.css.map": "/react-build-own-bonus/static/css/main.d135f5b9.chunk.css.map",
+    "static/media/bonus-1.png": "/react-build-own-bonus/static/media/bonus-1.6ec24155.png",
+    "static/media/bonus-2.png": "/react-build-own-bonus/static/media/bonus-2.1b98942d.png",
+    "static/media/bonus-3.png": "/react-build-own-bonus/static/media/bonus-3.dfe75e9f.png",
+    "static/media/bonus-4.png": "/react-build-own-bonus/static/media/bonus-4.fe78775a.png",
+    "static/media/bonus-5.png": "/react-build-own-bonus/static/media/bonus-5.b182d415.png",
+    "static/media/bonus-6.png": "/react-build-own-bonus/static/media/bonus-6.41dcf121.png",
+    "static/media/bonus-7.png": "/react-build-own-bonus/static/media/bonus-7.8d6b0868.png",
+    "static/media/campaign-logo.png": "/react-build-own-bonus/static/media/campaign-logo.6220e079.png",
+    "static/media/index.scss": "/react-build-own-bonus/static/media/mainBackground.f6976fcb.jpg",
+    "static/media/plate.png": "/react-build-own-bonus/static/media/plate.a42a247e.png",
+    "static/media/plateBonus.png": "/react-build-own-bonus/static/media/plateBonus.05e87e8e.png",
+    "static/media/start.png": "/react-build-own-bonus/static/media/start.2b3c8beb.png",
+    "static/media/termsBg.png": "/react-build-own-bonus/static/media/termsBg.3bff7eae.png"
+  }
+}
