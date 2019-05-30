@@ -23,6 +23,7 @@ class App extends React.Component {
 	toggleModal = () => {
 		this.setState({
 			show: !this.state.show,
+			// reset after closing
 			currentOption: options[0]
 		});
 	};
@@ -65,7 +66,7 @@ class App extends React.Component {
 					<TopBar />
 					<div
 						style={{
-							maxWidth: "866px",
+							maxWidth: "700px",
 							margin: "0 auto"
 						}}
 					>
