@@ -7,10 +7,8 @@ import randomImage from "../images/random.png";
 import mainBackground from "../images/mainBackground.jpg";
 
 const ContentContainer = styled.div`
-	/* min-height: 100vh; */
-
 	position: relative;
-	top: 40px;
+	top: 30px;
 	display: block;
 	width: 100%;
 	max-width: 838px;
@@ -22,7 +20,7 @@ const ContentContainer = styled.div`
 
 const RandomContainer = styled.div`
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;

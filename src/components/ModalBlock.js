@@ -8,8 +8,8 @@ import closeImage from "../images/closeButton.png";
 
 const CloseButton = styled.button`
 	position: absolute;
-	top: 40px;
-	right: 40px;
+	top: 2rem;
+	right: 2rem;
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -23,8 +23,8 @@ const CloseButton = styled.button`
 	}
 
 	@media (max-width: 751px) {
-		top: -5px;
-		right: -5px;
+		top: 1rem;
+		right: 1rem;
 		width: 11vw;
 		max-width: 40px;
 		height: 11vw;
@@ -37,8 +37,8 @@ const Plate = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 696px;
-	height: 696px;
+	width: 650px;
+	height: 650px;
 	background: url(${props =>
 		props.question ? plateImage : plateImageBonus});
 	background-position: center center;
@@ -46,16 +46,20 @@ const Plate = styled.div`
 	background-repeat: no-repeat;
 	padding: ${props => (props.question ? "3.5" : "1")}rem;
 
-	@media (max-width: 696px) {
+	@media (max-width: 650px) {
 		width: calc(100vw - 1rem);
 		height: calc(100vw - 1rem);
+		padding: ${props => (props.question ? "3" : "1")}rem;
+	}
+	@media (max-width: 400px) {
+		padding: ${props => (props.question ? "2.5" : "1")}rem;
 	}
 `;
 
 const PlateRow = styled.div`
 	margin-bottom: ${props => (props.main ? "1.2rem" : "0.6rem")};
 	@media (max-width: 696px) {
-		margin-bottom: 0.45rem;
+		margin-bottom: 0.5rem;
 	}
 `;
 
