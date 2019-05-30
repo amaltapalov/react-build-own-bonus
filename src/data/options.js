@@ -17,7 +17,6 @@ const options = [
 	{
 		id: 1,
 		type: "bonus",
-		title: require("../images/text/1.png"),
 		image: require("../images/bonuses/bonus-1.png"),
 		to: "https://www.planet7casino.com/webplay/?cashier&coupon=BYOB15",
 		terms:
@@ -26,7 +25,7 @@ const options = [
 	{
 		id: 2,
 		type: "question",
-		title: require("../images/text/2.png"),
+		title: require("../images/text/1.png"),
 		questions: [
 			{
 				to: 3,
@@ -61,7 +60,7 @@ const options = [
 	{
 		id: 5,
 		type: "question",
-		title: require("../images/text/4.png"),
+		title: require("../images/text/2.png"),
 		questions: [
 			{
 				to: 6,
@@ -84,7 +83,7 @@ const options = [
 	{
 		id: 7,
 		type: "question",
-		title: require("../images/text/5.png"),
+		title: require("../images/text/3.png"),
 		questions: [
 			{
 				to: 8,

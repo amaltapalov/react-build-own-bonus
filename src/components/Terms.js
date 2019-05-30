@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-// import termsBg from "../images/mainBackground.jpg";
 import termsImage from "../images/terms.png";
 import footerBg from "../images/termsBg.png";
 
@@ -22,7 +21,7 @@ const TermsContainer = styled.div`
 const TermsContent = styled.div`
 	position: relative;
 	margin: 0 auto;
-	padding: 2rem 0 0.5rem;
+	padding: 1.5rem 0;
 `;
 
 const TermsBg = styled.div`
@@ -50,7 +49,14 @@ const TermsBg = styled.div`
 
 const TermsButton = styled.img`
 	display: ${props => (props.showTerms ? "block" : "none")};
+	position: absolute;
+	right: 2rem;
+	bottom: 3rem;
 	cursor: pointer;
+	@media (max-width: 768px) {
+		right: 1rem;
+		bottom: 1rem;
+	}
 `;
 
 class Terms extends React.Component {

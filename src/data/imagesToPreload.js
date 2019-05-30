@@ -32,9 +32,7 @@ const ImagesToPreload = [
 	require("../images/text/0.png"),
 	require("../images/text/1.png"),
 	require("../images/text/2.png"),
-	require("../images/text/3.png"),
-	require("../images/text/4.png"),
-	require("../images/text/5.png")
+	require("../images/text/3.png")
 ];
 
 export default ImagesToPreload;
