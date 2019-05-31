@@ -2,8 +2,6 @@
   <img src="./delete-it.png" />
 </p>
 
-![Project screenshot: Scoreboard](/delete-it.png)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
