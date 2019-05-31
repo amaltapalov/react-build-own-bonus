@@ -20,7 +20,7 @@ This project was bootstrapped with [Create React App]
 ## Features
 
 - :nail_care: styled-components
-- :diamond_shape_with_a_dot_inside: react-bootstrap
+- :diamond_shape_with_a_dot_inside: react-bootstrap (Container, Row, Modal)
  
 ## Available Scripts
 
