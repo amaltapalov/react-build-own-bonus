@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App]
 
 ## Description
 
-- :pushpin: Landing page with dynamic popups. User click on **[Start]** button and begin picking appropriate option to generate a certain option. There is a **[Generate random button]** which allow to skip option picking and immediately generate a bonus.
+- :pushpin: Landing page with dynamic popups. User click on **[Start]** button and begin picking appropriate option to generate a certain bonus option. There is a **[Generate random button]** as well which allows to skip choosing option and immediately generate a random bonus from <a href="./src/data/options.js">array</a>.
 
 - :+1: Bonus amount: **7 Bonuses**
 
