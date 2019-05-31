@@ -11,11 +11,11 @@ This project was bootstrapped with [Create React App]
 
 ## Description
 
-:pushpin: Landing page with dynamic popups. User click on **Start** button and begin picking appropriate option to generate a certain option. There is a **Generate random button** which allow to skip option picking and immediately generate a bonus.
+- :pushpin: Landing page with dynamic popups. User click on **Start** button and begin picking appropriate option to generate a certain option. There is a **Generate random button** which allow to skip option picking and immediately generate a bonus.
 
-:+1: Bonus amount: **7 Bonuses**
+- :+1: Bonus amount: **7 Bonuses**
 
-:sunflower: Landing theme: **Summer BBQ and Hot Dogs**
+- :sunflower: Landing theme: **Summer BBQ and Hot Dogs**
 
 ## Features
 
