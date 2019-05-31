@@ -1,6 +1,6 @@
 const ImagesToPreload = [
 	require("../images/campaign-logo.png"),
-	require("../images/closeButton.png"),
+	require("../images/closeButton.svg"),
 	require("../images/logo.svg"),
 	require("../images/mainBackground.jpg"),
 	require("../images/plate.png"),

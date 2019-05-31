@@ -4,7 +4,7 @@ import { Modal } from "react-bootstrap";
 
 import plateImage from "../images/plate.png";
 import plateImageBonus from "../images/plateBonus.png";
-import closeImage from "../images/closeButton.png";
+import closeImage from "../images/closeButton.svg";
 
 const CloseButton = styled.button`
 	position: absolute;
@@ -23,12 +23,12 @@ const CloseButton = styled.button`
 	}
 
 	@media (max-width: 751px) {
-		top: 1rem;
-		right: 1rem;
+		top: 2rem;
+		right: 2rem;
 		width: 11vw;
-		max-width: 40px;
+		max-width: 30px;
 		height: 11vw;
-		max-height: 40px;
+		max-height: 30px;
 	}
 `;
 
@@ -39,8 +39,7 @@ const Plate = styled.div`
 	justify-content: center;
 	width: 650px;
 	height: 650px;
-	background: url(${props =>
-		props.question ? plateImage : plateImageBonus});
+	background: url('${props => (props.question ? plateImage : plateImageBonus)}');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
