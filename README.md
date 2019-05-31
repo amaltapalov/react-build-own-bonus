@@ -16,6 +16,11 @@ This project was bootstrapped with [Create React App]
 :+1: Bonus amount: **7 Bonuses**
 
 :sunflower: Landing theme: **Summer BBQ and Hot Dogs**
+
+## Features
+
+- :nail_care: styled-components
+- :diamond_shape_with_a_dot_inside: react-bootstrap
  
 ## Available Scripts
 
