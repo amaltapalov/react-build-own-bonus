@@ -1,7 +1,6 @@
 <p align="center">
   <img src="./delete-it.png" />
 </p>
-<br/>
 
 <p align="center">
 This project was bootstrapped with [Create React App]
