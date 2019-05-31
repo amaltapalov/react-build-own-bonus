@@ -83,8 +83,8 @@ export default function ModalBlock({ optionData, show, onHide, selectAnswer }) {
 						<PlateRow main={true}>
 							<img src={optionData.title} alt="title" />
 						</PlateRow>
-						{optionData.questions.map(question => (
-							<PlateRow>
+						{optionData.questions.map((question, i) => (
+							<PlateRow key={i}>
 								<PlateButton
 									onClick={() => {
 										selectAnswer(question.to);
