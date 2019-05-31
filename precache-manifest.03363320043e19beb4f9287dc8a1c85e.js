@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "437d887f38b1ed6517a93990171abecb",
+    "revision": "d20ff57f1f87a1e7fcabaa8b207b48a6",
     "url": "/react-build-own-bonus/index.html"
   },
   {
-    "revision": "afd7261c3817eb208511",
-    "url": "/react-build-own-bonus/static/css/main.d135f5b9.chunk.css"
+    "revision": "d202bf81227f2539992a",
+    "url": "/react-build-own-bonus/static/css/main.38cc241d.chunk.css"
   },
   {
     "revision": "d2a2f6065b7dfae69e3a",
     "url": "/react-build-own-bonus/static/js/2.5de83756.chunk.js"
   },
   {
-    "revision": "afd7261c3817eb208511",
-    "url": "/react-build-own-bonus/static/js/main.8bf406c8.chunk.js"
+    "revision": "d202bf81227f2539992a",
+    "url": "/react-build-own-bonus/static/js/main.d7f84baf.chunk.js"
   },
   {
     "revision": "007e905c04300a2a6ea4",
@@ -52,6 +52,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-build-own-bonus/static/media/campaign-logo.6220e079.png"
   },
   {
+    "revision": "c537e3136ffa9e46fcddeb8258ac390c",
+    "url": "/react-build-own-bonus/static/media/closeButton.c537e313.svg"
+  },
+  {
+    "revision": "6f2dd2a4363cdb7011fef01e3883886a",
+    "url": "/react-build-own-bonus/static/media/logo.6f2dd2a4.svg"
+  },
+  {
     "revision": "f6976fcbea3200db6f63136a8cdb77de",
     "url": "/react-build-own-bonus/static/media/mainBackground.f6976fcb.jpg"
   },
@@ -64,8 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-build-own-bonus/static/media/plateBonus.05e87e8e.png"
   },
   {
-    "revision": "2b3c8beb8b97c00579ffcaacd411d23b",
-    "url": "/react-build-own-bonus/static/media/start.2b3c8beb.png"
+    "revision": "e0a05a833bc650e68f4a663a814b0601",
+    "url": "/react-build-own-bonus/static/media/random.e0a05a83.svg"
+  },
+  {
+    "revision": "6d45911e1c242f752183024c2d6dd9aa",
+    "url": "/react-build-own-bonus/static/media/start.6d45911e.png"
+  },
+  {
+    "revision": "48eece7569a5a9e1ee7e2559184f3fca",
+    "url": "/react-build-own-bonus/static/media/terms.48eece75.svg"
   },
   {
     "revision": "3bff7eae803af46bf8d076c5d4014361",
