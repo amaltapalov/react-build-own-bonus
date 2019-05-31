@@ -1,13 +1,13 @@
 const ImagesToPreload = [
 	require("../images/campaign-logo.png"),
 	require("../images/closeButton.png"),
-	require("../images/logo.png"),
+	require("../images/logo.svg"),
 	require("../images/mainBackground.jpg"),
 	require("../images/plate.png"),
 	require("../images/plateBonus.png"),
-	require("../images/random.png"),
+	require("../images/random.svg"),
 	require("../images/start.png"),
-	require("../images/terms.png"),
+	require("../images/terms.svg"),
 	require("../images/termsBg.png"),
 
 	require("../images/bonuses/bonus-1.png"),

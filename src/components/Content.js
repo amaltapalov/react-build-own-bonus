@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 // Images
 import startImage from "../images/start.png";
-import randomImage from "../images/random.png";
+import randomImage from "../images/random.svg";
 import mainBackground from "../images/mainBackground.jpg";
 
 const ContentContainer = styled.div`
@@ -32,6 +32,9 @@ const RandomContainer = styled.div`
 	margin: 0 auto;
 	z-index: 3;
 	cursor: pointer;
+	@media (max-width: 768px) {
+		width: 60%;
+	}
 `;
 
 function Content({ showModal, generateRandomBonus }) {

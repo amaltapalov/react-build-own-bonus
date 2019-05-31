@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import termsImage from "../images/terms.png";
+import termsImage from "../images/terms.svg";
 import footerBg from "../images/termsBg.png";
 
 const TermsContainer = styled.div`
@@ -52,6 +52,8 @@ const TermsButton = styled.img`
 	position: absolute;
 	right: 2rem;
 	bottom: 3rem;
+	width: 83px;
+	height: 58px;
 	cursor: pointer;
 	@media (max-width: 768px) {
 		right: 1rem;
