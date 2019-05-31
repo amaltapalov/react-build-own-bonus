@@ -5,7 +5,7 @@
 <p align="center">
 This project was bootstrapped with [Create React App]
 <br/>
-(https://github.com/facebook/create-react-app).
+(https://github.com/facebook/create-react-app)
 </p>
 
 
