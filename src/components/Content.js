@@ -4,7 +4,6 @@ import styled from "styled-components";
 // Images
 import startImage from "../images/start.png";
 import randomImage from "../images/random.svg";
-import mainBackground from "../images/mainBackground.jpg";
 
 const ContentContainer = styled.div`
 	position: relative;
@@ -12,8 +11,8 @@ const ContentContainer = styled.div`
 	display: block;
 	width: 100%;
 	max-width: 838px;
+	text-align: center;
 	margin: 0 auto;
-	background: url(${mainBackground}) center center / cover no-repeat;
 	z-index: 2;
 	cursor: pointer;
 `;
@@ -27,7 +26,6 @@ const RandomContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 100px;
 	max-width: 500px;
 	margin: 0 auto;
 	z-index: 3;
@@ -36,6 +34,12 @@ const RandomContainer = styled.div`
 		width: 60%;
 	}
 `;
+
+// const Content = props => {
+// 	to use props:::::
+//  props.showModal;
+// 	props.generateRandomBonus;
+// };
 
 function Content({ showModal, generateRandomBonus }) {
 	return (
