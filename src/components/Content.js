@@ -35,12 +35,6 @@ const RandomContainer = styled.div`
 	}
 `;
 
-// const Content = props => {
-// 	to use props:::::
-//  props.showModal;
-// 	props.generateRandomBonus;
-// };
-
 function Content({ showModal, generateRandomBonus }) {
 	return (
 		<ContentContainer>

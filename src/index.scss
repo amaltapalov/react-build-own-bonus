@@ -1,12 +1,12 @@
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
-@import '~bootstrap/scss/mixins';
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
 // @import "~bootstrap/scss/root";
-@import '~bootstrap/scss/reboot';
+@import "~bootstrap/scss/reboot";
 // @import "~bootstrap/scss/type";
-@import '~bootstrap/scss/images';
+@import "~bootstrap/scss/images";
 // @import "~bootstrap/scss/code";
-@import '~bootstrap/scss/grid';
+@import "~bootstrap/scss/grid";
 // @import "~bootstrap/scss/tables";
 // @import "~bootstrap/scss/forms";
 // @import "~bootstrap/scss/buttons";
@@ -33,78 +33,77 @@
 // @import "~bootstrap/scss/popover";
 // @import "~bootstrap/scss/carousel";
 // @import "~bootstrap/scss/spinners";
-@import '~bootstrap/scss/utilities';
+@import "~bootstrap/scss/utilities";
 // @import "~bootstrap/scss/print";
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  padding-right: 0 !important;
-  background: #0f0d10;
-  font-family: 'Roboto', sans-serif;
+	padding-right: 0 !important;
+	background: #0f0d10;
+	font-family: "Roboto", sans-serif;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .container {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .modal-content {
-  border: none;
-  background: none;
+	border: none;
+	background: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .page {
-  position: relative;
-  min-height: 100vh;
-  overflow: hidden;
-  background: url('./images/mainBackground.jpg') center center / cover no-repeat;
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+	background: url("./images/mainBackground.jpg") center center / cover no-repeat;
 
-  &__content {
-    position: relative;
-  }
+	&__content {
+		position: relative;
+	}
 }
 
 .modal {
-  background: rgba(#9a2f22, 0.8);
-  padding-right: 0 !important;
+	background: rgba(#9a2f22, 0.8);
+	padding-right: 0 !important;
 }
 
 .modal-dialog {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) !important;
-  max-width: none;
-  margin: 0 !important;
-  padding: 1rem;
-  z-index: 20000;
-  // overflow-y: initial !important
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) !important;
+	max-width: none;
+	margin: 0 !important;
+	padding: 1rem;
+	z-index: 20000;
 }
 
 .modal-backdrop {
-  background: transparent;
+	background: transparent;
 }

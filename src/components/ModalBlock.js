@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Modal } from "react-bootstrap";
-
 import plateImage from "../images/plate.png";
 import plateImageBonus from "../images/plateBonus.png";
 import closeImage from "../images/closeButton.svg";
