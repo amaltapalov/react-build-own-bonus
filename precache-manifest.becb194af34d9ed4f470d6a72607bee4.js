@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d20ff57f1f87a1e7fcabaa8b207b48a6",
+    "revision": "99ccfc85fa5c6ff85b842bde01aa338b",
     "url": "/react-build-own-bonus/index.html"
   },
   {
-    "revision": "d202bf81227f2539992a",
-    "url": "/react-build-own-bonus/static/css/main.38cc241d.chunk.css"
+    "revision": "f30d5bc1acea74dc6b67",
+    "url": "/react-build-own-bonus/static/css/main.fd1fc6a0.chunk.css"
   },
   {
-    "revision": "d2a2f6065b7dfae69e3a",
-    "url": "/react-build-own-bonus/static/js/2.5de83756.chunk.js"
+    "revision": "92dd42992992dce2e7f7",
+    "url": "/react-build-own-bonus/static/js/2.8966d58f.chunk.js"
   },
   {
-    "revision": "d202bf81227f2539992a",
-    "url": "/react-build-own-bonus/static/js/main.d7f84baf.chunk.js"
+    "revision": "6b8f0e71cabfb8519240",
+    "url": "/react-build-own-bonus/static/js/3.13ce93bf.chunk.js"
   },
   {
-    "revision": "007e905c04300a2a6ea4",
-    "url": "/react-build-own-bonus/static/js/runtime~main.a777f7af.js"
+    "revision": "f30d5bc1acea74dc6b67",
+    "url": "/react-build-own-bonus/static/js/main.d47304b0.chunk.js"
+  },
+  {
+    "revision": "e7a15abf1b26802c74d4",
+    "url": "/react-build-own-bonus/static/js/runtime~main.adec82c3.js"
   },
   {
     "revision": "6ec241553a7598658c71dd77c7ede147",
@@ -56,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-build-own-bonus/static/media/closeButton.c537e313.svg"
   },
   {
-    "revision": "6f2dd2a4363cdb7011fef01e3883886a",
-    "url": "/react-build-own-bonus/static/media/logo.6f2dd2a4.svg"
+    "revision": "fd7661f6266f259e0bc5282ac0e368de",
+    "url": "/react-build-own-bonus/static/media/logo.fd7661f6.svg"
   },
   {
     "revision": "f6976fcbea3200db6f63136a8cdb77de",
