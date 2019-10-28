@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99ccfc85fa5c6ff85b842bde01aa338b",
+    "revision": "11755c15297a561aa195caeec150bfac",
     "url": "/react-build-own-bonus/index.html"
   },
   {
-    "revision": "f30d5bc1acea74dc6b67",
+    "revision": "2f6f8c53fa939a938432",
     "url": "/react-build-own-bonus/static/css/main.fd1fc6a0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-build-own-bonus/static/js/3.13ce93bf.chunk.js"
   },
   {
-    "revision": "f30d5bc1acea74dc6b67",
-    "url": "/react-build-own-bonus/static/js/main.d47304b0.chunk.js"
+    "revision": "2f6f8c53fa939a938432",
+    "url": "/react-build-own-bonus/static/js/main.45de569e.chunk.js"
   },
   {
     "revision": "e7a15abf1b26802c74d4",

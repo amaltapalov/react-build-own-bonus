@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-build-own-bonus/static/css/main.fd1fc6a0.chunk.css",
-    "main.js": "/react-build-own-bonus/static/js/main.d47304b0.chunk.js",
-    "main.js.map": "/react-build-own-bonus/static/js/main.d47304b0.chunk.js.map",
+    "main.js": "/react-build-own-bonus/static/js/main.45de569e.chunk.js",
+    "main.js.map": "/react-build-own-bonus/static/js/main.45de569e.chunk.js.map",
     "runtime~main.js": "/react-build-own-bonus/static/js/runtime~main.adec82c3.js",
     "runtime~main.js.map": "/react-build-own-bonus/static/js/runtime~main.adec82c3.js.map",
     "static/js/2.8966d58f.chunk.js": "/react-build-own-bonus/static/js/2.8966d58f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.13ce93bf.chunk.js": "/react-build-own-bonus/static/js/3.13ce93bf.chunk.js",
     "static/js/3.13ce93bf.chunk.js.map": "/react-build-own-bonus/static/js/3.13ce93bf.chunk.js.map",
     "index.html": "/react-build-own-bonus/index.html",
-    "precache-manifest.becb194af34d9ed4f470d6a72607bee4.js": "/react-build-own-bonus/precache-manifest.becb194af34d9ed4f470d6a72607bee4.js",
+    "precache-manifest.919855a4415c80e513375b71130d25d2.js": "/react-build-own-bonus/precache-manifest.919855a4415c80e513375b71130d25d2.js",
     "service-worker.js": "/react-build-own-bonus/service-worker.js",
     "static/css/main.fd1fc6a0.chunk.css.map": "/react-build-own-bonus/static/css/main.fd1fc6a0.chunk.css.map",
     "static/media/bonus-1.png": "/react-build-own-bonus/static/media/bonus-1.6ec24155.png",
